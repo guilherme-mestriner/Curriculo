@@ -1,14 +1,19 @@
 import { React } from 'react';
 import { View, Text, StyleSheet, Button } from 'react-native';
 
-const Home = ({ navigation }) => {
+const Curriculo = ({ navigation }) => {
     return (
         <View>
-            <Text>Pagina Inicial</Text>
+            <Text>Meu Curriculo</Text>
 
             <Button 
-                title="Formação"
+                title="Sobre mim"
                 onPress={ () => navigation.navigate('Formacao') }
+            />
+
+            <Button 
+                title="Objetivo"
+                onPress={ () => navigation.navigate('Objetivo') }
             />
         </View>
     );

@@ -2,14 +2,10 @@ import { React } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import { Button } from 'react-native-web';
 
-const Formacao = () => {
+const Objetivo = () => {
     return(
         <View style={styles.container}>
-            <Text style={styles.title}>Guilherme Henrique Mestriner Marques</Text>
-            <Text style={styles.title}>Brasileiro, Namorando, 17 anos </Text>
-            <Text style={styles.title}>E-mail: gm5842039@gmail.com</Text>
-            <Text style={styles.title}>Contato:(11) 972276750</Text>
-            <Text style={styles.title}>Endereço: Rua Prudente de Moraes, 1933 - Guararapes/SP/Brasil </Text>
+            <Text style={styles.title}>Atuar na área da saúde como enfermeiro ou virar lutador</Text>
 
             <Button
                 title="Voltar"
@@ -34,4 +30,4 @@ const styles = StyleSheet.create({
     }
   });
 
-  export default Formacao;
+  export default Objetivo;
